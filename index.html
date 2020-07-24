@@ -1,40 +1,132 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CODEPRO FORM</title>
-    <link rel="stylesheet" href="style.css" >
-</head>
-<body>
-    <form method="POST" action="index.html" id="myform" onsubmit="return validateform()">
-    <div class="container">
-    <div class="main">
-        <div class = "submain">
-            <div class="logo"><img src="/assets/logo.png"></div>
-            <label class="label">CODEPRO</label>
-            <a href="#" class="login" onclick id = "page1">Log In</a>
-            <div class="signupBox"></div>
-            <a href="#" class = "signup" onclick  id = "page2">Sign Up</a>
-            <label class = "heading">For the Love of Coding</label>
-            <p class = "para">CODEPRO is built with a vision to help other ProGrads host and review code, manage projects and collaborate alongside 1 million ProGrads.</p>
-            <div class = "signupPage"></div>
-            <label class = "username">USERNAME</label>
-            <input type="text" class = "usertext" name="username" id = "usertext" placeholder="Enter your username"/>
-            <div id="name_error" class="nameerror"></div>
-            <label class = "email">EMAIL</label>
-            <input type="text" class = "emailtext" name="email" id = "emailtext" placeholder="Enter your email"/>
-            <div id="email_error" class="emailerror"></div>
-            <label class = "password">PASSWORD</label>
-            <input type="password" class = "passwordtext" name="password" id = "passwordtext" placeholder="Enter your password"/>
-            <div id="password_error" class="passworderror"></div>
-            <input type="button" class = "submit" id="submit" value = "Sign Up for CODEPRO" />
+<html>
+    <head>
+        <title>project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <span id="symbol" class="headlist">❤</span>
+                <header class="mainlist">
+                    <img id="img" src="./assets/b1.png">
+                      <p class="headlist">Ninja Party Manager</p>
+                            <nav class="list">
+                        <ul>
+                          <li><a href="#">Product</a> </li>
+                          <li><a href="#">Pricing</a></li>
+                          <li><a href="#">Documentation</a></li>
+                          <li><a href="#">community</a></li>
+                      </ul>
+                    </nav>
+                   
+                </header class="mainlist">    
+            <br>
+<div class="main">
+ <img src="./assets/logo.png" class="image">
+ <div class="form">
+     <input type="text" class="Search" placeholder="Search">
+     <input type="submit" value="Search" class="ser" > 
+</div>
+<div id="log">
+ <input type="submit" value="Sign Up" class="Sign" id="click">
+ <input type="submit" value="Log Up" class="Log"  id="click">
+</div>
+ </div>
+ <div class="content">
+     <img src="./assets/background2.png" width="100%" >
+     <h1></h1>
+     <div class="text">
+            <h1 >Build amazing things</h1><br>
+            <p style="font-size: 18px;">We're npm, Inc., the company behind Node package manager, the npm<br> Registry, and npm CLI. We offer those to the community for free, but our<br> day job is building and selling useful tools for developers like you.</p><br>
+      <h3>Take your JavaScript<br> development up a notch</h3><br>
+<p style="font-size: 15px;">Get started today for free, or step up to npm Pro to enjoy a premium<br> JavaScript development experience, with features like private packages.</p><br>
+<input type="submit" value="Sign up for free" class="btn">
+<input type="submit" value="Learn about pro" class="btn1">
         </div>
-    </div>
-    </div>
-        <footer class = "footer" >Made with <img src = "assets/Vector.svg"> by ProGrad</footer>
-</form>
-</form>
-</body>
-<script src="script.js"></script>
+ </div>
+ <div class="future">
+     <img src="./assets/bubble.png">
+     <p style="font-size: 30px;"><b>Bring the best of open<br> source to you, your team,<br> and your company</b></p>
+     <p>Relied upon by more than 11 million developers worldwide, npm is<br> committed to making JavaScript development elegant, productive, and<br> safe. The free npm Registry has become the center of JavaScript code<br> sharing, and with more than one million packages, the largest software<br> registry in the world. Our other tools and services take the Registry, and<br> the work you do around it, to the next level.</p>
+
+ </div>
+ <div class="container">
+     <div class="listofcourse">
+         <img src="./assets/img (1).png" id="icon">
+         <h3>npm Free</h3>
+         <p style="font-size: 15px;">Become a contributing member of<br> the open source JavaScript<br> community. Create public<br> packages, publish updates, audit<br> your dependencies, and more.</p>
+         <input type="submit" value="learn more" class="course"> 
+     </div>
+     <div class="listofcourse">
+            <img src="./assets/img (2).png" id="icon"> 
+            <!-- <img src="./assets/img (5).png" id="icon"> -->
+            <h3>npm Pro & Teams</h3>
+            <p style="font-size: 15px;">For next-level JavaScript<br> developers who want more<br> capabilities. Pro and Teams add the<br> ability to build private packages for<br> you, your team, or for customers.</p>
+            <input type="submit" value="learn more" class="course"> 
+        </div>
+        <div class="listofcourse">
+                <img src="./assets/img (3).png" id="icon">
+                <h3>npm Enterprise</h3>
+                <p style="font-size: 15px;">For very large teams and business-<br>critical projects, npm Enterprise<br> delivers features that organizations<br> with hundreds of developers need,<br> like SSO and enhanced security.</p>
+                <input type="submit" value="learn more" class="course"> 
+            </div>
+            <div class="listofcourse">
+                    <img src="./assets/img (4).png" id="icon">
+                    <h3>npm PkgSafe</h3>
+                    <p style="font-size: 15px;">Our security team's unique insights<br> into JavaScript vulnerabilities and<br> threats are delivered as free and<br> premium features, as well as<br> services for resellers and others.</p>
+                    <input type="submit" value="learn more" class="course"> 
+                </div>
+ </div>
+ <div class="container1">
+     <img src="./assets/background.png">
+     <div class="texts">
+     <h1>We ❤ open source</h1>
+     <p>At npm, Inc., we're proud to dedicate teams of full-time employees to<br> operating the npm Registry, enhancing the CLI, improving JavaScript<br> security, and other projects that support and nurture a vibrant open<br> source community.</p>
+</div>
+ </div>
+ <div class="companylist">
+     <p>Gratefully serving everyone<br> from solo devs to the<br> Fortune 500</p><br><br>
+     <img src="./assets/company.png" height="70%" width="40%">
+ </div>
+ <div class="border">
+ </div>
+ 
+     <footer class="footer">
+     <div class="property">
+         <h4>Help</h4>
+         <ul>
+               <li>Documentation</li> 
+                <li>Community</li>
+                 <li>Resources</li>
+                 <li>Advisories</li>
+               <li> Status</li>
+                <li>Contact</li>
+         </ul>
+     </div>
+     <div class="property">
+            <h4>About</h4>
+            <ul>
+                    <li>Company</li> 
+                    <li>Blog</li>
+                    <li> Careers</li>
+                    <li>Webinars</li>
+                    <li>Press </li>
+                    <li> Newsletter</li>
+            </ul>
+        </div>
+        <div class="property">
+                <h4>Terms & Policies</h4>
+                <ul> 
+                      <li>Policies</li> 
+                       <li> Terms of Use</li>
+                        <li>Code of Conduct</li>
+
+                </ul>
+            </div>
+        </footer>
+     
+ <div class="content">
+    <img id="img" src="./assets/b1.png">
+
+ </div>
+    </body>
 </html>
